@@ -1,4 +1,4 @@
-"local UniverseViewer = Instance.new("ScreenGui")
+local UniverseViewer = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local Container = Instance.new("Frame")
 local GamesList = Instance.new("ScrollingFrame")
@@ -494,4 +494,4 @@ end)
 
 connect = game:GetService("RunService").Stepped:Connect(function()
     UVList.CanvasSize = UDim2.new(0, 0, 0, UVList:FindFirstChildOfClass("UIListLayout").AbsoluteContentSize.Y)
-end)"
+end)
